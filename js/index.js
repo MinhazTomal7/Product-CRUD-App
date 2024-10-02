@@ -1,9 +1,9 @@
 async function getList() {
-    document.getElementById("loader").classList.remove("d-none")
+
 
     let URL = `http://164.68.107.70:6060/api/v1/ReadProduct/`
     let res = await axios.get(URL)
-    document.getElementById("loader").classList.add("d-none")
+
 
     if (res.status === 200) {
         let list = res.data["data"]
