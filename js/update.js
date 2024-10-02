@@ -50,7 +50,7 @@ async function updateData() {
     document.getElementById("loader").classList.add("d-none")
 
     if(res.status===200){
-        window.location = "ProductList.html"
+        window.location = "index.html"
     }
     else{
         alert("error")
