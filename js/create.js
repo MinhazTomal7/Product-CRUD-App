@@ -23,7 +23,7 @@ async function createProduct(){
     document.getElementById("loader").classList.add("d-none")
 
     if(res.status ===200){
-        window.location = "index.html"
+        window.location = "ProductList.html"
     }
     else {
         alert("error")
