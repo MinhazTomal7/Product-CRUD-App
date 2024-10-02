@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/milligram.css">
+    <title>Home</title>
+</head>
+<body>
+
+
+<div id="loader" class="loading d-none"></div>
+
+<div class="container">
+    <a href="create.html"  class="button button-outline"> CREATE NEW</a>
+    <table class="table">
+        <thead>
+        <tr>
+            <th> Product Name</th>
+            <th>Product Code</th>
+            <th>Product Qty</th>
+            <th> Unit Price</th>
+            <th> Total Price </th>
+            <th>Delete</th>
+            <th> Update</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody id="itemList">
+
+        </tbody>
+    </table>
+</div>
+
+
+<script src="js/axios.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

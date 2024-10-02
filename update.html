@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/milligram.css">
+    <title>Update</title>
+</head>
+<body>
+
+<div id="loader" class="loading d-none"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="column">
+            <label for="ProductID">Product ID</label><input id="ProductID" type="text">
+
+            <label for="ProductName">Product Name</label><input id="ProductName" type="text">
+
+            <label for="ProductCode">Product Code</label><input id="ProductCode" type="text">
+
+            <label for="ProductImg">Product Img</label><input id="ProductImg" type="text">
+
+            <label for="unitPrice">Unit Price</label><input id="unitPrice" type="text">
+
+            <label for="ProductQty">Product Qty</label><input id="ProductQty" type="text">
+
+            <label for="totalPrice">Product Total</label><input id="totalPrice" type="text">
+
+            <button onclick="updateData()" type="submit">Update</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/axios.min.js"></script>
+<script src="js/update.js"></script>
+</body>
+</html>
